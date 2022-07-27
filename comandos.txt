@@ -24,3 +24,5 @@ git config --list --show-origin - Muetra donde estan guardadas las configuracion
 git config --global user.name name - Cambiar el nombre del usuario al hacer commits
 
 git config --global user.mail mail - Cambia el email del usuario al hacer commits
+
+git log - muetra la historia de los archivos segun los commits
