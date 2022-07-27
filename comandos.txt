@@ -1,0 +1,26 @@
+Esta es mi primera prueba del inicio del curso ded git y github
+
+git init - aplica en la carpeta lo necesario para usar git.
+
+git status - muestra el estado de la carpeta segun git
+
+git add - agrega al traking para poder hacer un commit
+
+git rm --cached - elimina el add si ya lo colocaste (antes de aplicarlo, este aun esta en memoria RAM)
+
+git commit -m "mensaje" - agrega el estado traqueado como un commit
+
+
+---Configuracion---
+
+Notas: debes identificarte para saber bien quien es el responsable de los cambios 
+
+git config - muestras los comandos disponibles la apra configuracion de git
+
+git config --list - Muestra info de la configuracion actual de git
+
+git config --list --show-origin - Muetra donde estan guardadas las configuraciones que se mutran con --list
+
+git config --global user.name name - Cambiar el nombre del usuario al hacer commits
+
+git config --global user.mail mail - Cambia el email del usuario al hacer commits
