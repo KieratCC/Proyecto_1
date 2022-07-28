@@ -1,3 +1,6 @@
+
+---Comandos de gestion---
+
 Esta es mi primera prueba del inicio del curso ded git y github
 
 git init - aplica en la carpeta lo necesario para usar git.
