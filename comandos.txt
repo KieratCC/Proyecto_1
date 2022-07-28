@@ -10,6 +10,10 @@ git rm --cached - elimina el add si ya lo colocaste (antes de aplicarlo, este au
 
 git commit -m "mensaje" - agrega el estado traqueado como un commit
 
+git show - Puedes ver los cambios realizados a un archivo en el ultimo commit
+
+
+
 
 ---Configuracion---
 
