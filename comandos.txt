@@ -21,6 +21,12 @@ git log - muetra la historia de los archivos segun los commits
 
 git reset @Commit ID@ --hard - regresa en el tiempo al commit seleccionado borrando la info del staging y los commits, con --soft - en el directorio de trabajo se devuelve pero en el staging y commits continuan intactos
 
+git log --stat - muestra info sobre los commits mas detallada
+
+git checkout @Commit ID@ @nombre del archivo@ - te permite remplazar el archivo que escogiste por una version antigua.
+
+git checkout master @nombre del archivo@ - Si realisaste un checkout este te permite volver a la rama principal
+
 
 
 
