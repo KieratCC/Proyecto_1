@@ -27,6 +27,8 @@ git checkout @Commit ID@ @nombre del archivo@ - te permite remplazar el archivo 
 
 git checkout master @nombre del archivo@ - Si realisaste un checkout este te permite volver a la rama principal
 
+git rm - elimina archivos sin eliminar su historial de commits, puedes recuperarlo luego de ser el caso (--cached - el archivo pasa a estar untracked) (--force - Elimina el archivo del todo)
+
 
 
 
