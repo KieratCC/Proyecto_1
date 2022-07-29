@@ -17,6 +17,12 @@ git show - Puedes ver los cambios realizados a un archivo en el ultimo commit
 
 git diff - Muetra la diferencia entre dos commits
 
+git log - muetra la historia de los archivos segun los commits
+
+git reset @Commit ID@ --hard - regresa en el tiempo al commit seleccionado borrando la info del staging y los commits, con --soft - en el directorio de trabajo se devuelve pero en el staging y commits continuan intactos
+
+
+
 
 ---Configuracion---
 
@@ -32,4 +38,3 @@ git config --global user.name name - Cambiar el nombre del usuario al hacer comm
 
 git config --global user.mail mail - Cambia el email del usuario al hacer commits
 
-git log - muetra la historia de los archivos segun los commits
