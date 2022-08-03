@@ -29,6 +29,8 @@ git checkout master @nombre del archivo@ - Si realisaste un checkout este te per
 
 git rm - elimina archivos sin eliminar su historial de commits, puedes recuperarlo luego de ser el caso (--cached - el archivo pasa a estar untracked) (--force - Elimina el archivo del todo)
 
+git brach - crea una rama
+
 
 
 ---servidor---
