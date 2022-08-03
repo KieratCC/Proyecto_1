@@ -31,6 +31,20 @@ git rm - elimina archivos sin eliminar su historial de commits, puedes recuperar
 
 
 
+---servidor---
+
+git clone url - hace una copia de los archivos del server en tu maquina
+
+git push - envia los datos de los commits al servidor
+
+git fetch - trae una copia del repositorio local del server
+
+git merge trae una copia del directorio local del server
+
+git pull - en un conjunto entre (fetch y merge)
+
+
+
 
 ---Configuracion---
 
