@@ -25,9 +25,11 @@ git log --stat - muestra info sobre los commits mas detallada
 
 git checkout @Commit ID@ @nombre del archivo@ - te permite remplazar el archivo que escogiste por una version antigua.
 
-git checkout master @nombre del archivo@ - Si realisaste un checkout este te permite volver a la rama principal
+git checkout master @nombre del archivo@ - Si realisaste un checkout este te permite volver a la rama principal o ir a cualquier otra rama
 
 git rm - elimina archivos sin eliminar su historial de commits, puedes recuperarlo luego de ser el caso (--cached - el archivo pasa a estar untracked) (--force - Elimina el archivo del todo)
+
+git branch - Crea una rama
 
 
 
