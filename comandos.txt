@@ -35,6 +35,8 @@ git branch - Crea una rama
 
 ---servidor---
 
+origen [la rama que quieres enviar]
+
 git clone url - hace una copia de los archivos del server en tu maquina
 
 git push - envia los datos de los commits al servidor
@@ -44,6 +46,12 @@ git fetch - trae una copia del repositorio local del server
 git merge - trae una copia del directorio local del server
 
 git pull - en un conjunto entre (fetch y merge)
+    git pull origin master --allow-unreleted-histories
+
+git remote add origin - crea un enlace para hacer fetch y push a github
+
+git remote -v - enseña el nombre del origen 
+
 
 
 
