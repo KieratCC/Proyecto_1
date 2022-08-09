@@ -53,6 +53,13 @@ git remote add origin - crea un enlace para hacer fetch y push a github
 git remote -v - enseña el nombre del origen 
 
 
+---Crear llave ssh---
+
+ssh-keygen -t rsa -b 4096 -C "correo" - comando para crear llaves de cifrado
+
+eval $(ssh-agent -s) - nos muestra si el proceso de llave criptografica esta corriedon correctamente
+
+ssh-add ~/.ssh/id_rsa - agrega la llave privada al sistema
 
 
 
