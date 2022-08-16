@@ -31,6 +31,20 @@ git rm - elimina archivos sin eliminar su historial de commits, puedes recuperar
 
 git branch - Crea una rama
 
+---Tags---
+
+git log --all --graph --decorate --oneline - Comando que permite ver el historial de commits de manera ordenada para ver el ID de commit para crear tags o entre otras funciones
+
+git tag -a v0.1 -m "Resultado de las primeras clases del curso" c5251e9 - Crea un tag
+
+git tag - Ensena los nombres de los tags creados
+
+git tag -d mal - Elimina los tag de manera local
+
+git push origin --tags - envia al servidor los tag unicamente
+
+git push origin :refs/tags/nombre - elimina el tag de github
+
 
 
 ---servidor---
