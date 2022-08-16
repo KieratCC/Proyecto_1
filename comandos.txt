@@ -45,6 +45,13 @@ git push origin --tags - envia al servidor los tag unicamente
 
 git push origin :refs/tags/nombre - elimina el tag de github
 
+---Manejo de ramas---
+
+git branch - Muestra las ramas que existen
+
+git show-branch --all  - Muentra info sobre las ramas 
+
+gitk - Abre un software donde puedes ver la info sobre las ramas
 
 
 ---servidor---
