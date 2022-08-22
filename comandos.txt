@@ -31,6 +31,31 @@ git rm - elimina archivos sin eliminar su historial de commits, puedes recuperar
 
 git branch - Crea una rama
 
+---Comandos Especiales---
+
+git rebase master - Este comando se aplica en la rama en la que quieres ingresar a la otra
+
+
+git stash - rebierte al ultimo commit y guarda los cambios posteriores para luego poder usarlo
+
+git stash list - muestra la lista de los cambios guardados en stash
+
+git stash pop - muestra los cambios guardados y en el editor puedes terminar los cambio o descartarlos con una revercion.
+
+git stash branch "nombre de la rama" - coloca los cambios guardados en la rama que se esta creando
+
+git stash drop - elimina lo guardado en al lista
+
+
+Nota: git clean solo elimina las cosas que puede trakear
+
+git clean - Permite eliminar archivos creados por error o que concidera que no sirven 
+
+git clean --dry-run - Muestra que archivos se van a borrar
+
+git clean -f - aplica lo que puedes ver en --dry-run
+
+
 ---Tags---
 
 git log --all --graph --decorate --oneline - Comando que permite ver el historial de commits de manera ordenada para ver el ID de commit para crear tags o entre otras funciones
