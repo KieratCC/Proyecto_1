@@ -1,3 +1,5 @@
+Nota: git commit --help - te explica para que sirve el comando y sus opciones
+
 
 ---Comandos de gestion---
 
@@ -31,6 +33,10 @@ git rm - elimina archivos sin eliminar su historial de commits, puedes recuperar
 
 git branch - Crea una rama
 
+git branch -r - muestra las ramas del repositorio remeto
+
+git branch -a - muestra las ramas del repositorio remeto y locales
+
 
 ---Comandos Especiales---
 
@@ -62,7 +68,34 @@ git cherry-pick "ID commit"- trae los cambio de una rama de un commit especifico
 
 git reflog - enseña los estados del proyecto tomando encuanta cualquier cambio si omitir ningun aspecto por commandos que alteren la historia
 
-git reset --HARD "ID commit" - trae el estado del commit 
+git reset --HARD "ID commit" - trae el estado del commit
+
+
+git commit --amend - puedes agregar cambio al ultimo commit que hiciste.
+
+
+git stats - secreo con el comando (git config  --global alias.stats "shortlog -sn --all --no-merges") sirve para ver cuantos commits tiene cada colaborador
+
+git blame ARCHIVO -Llinea_inicial,linea_final - muestra quien hizo el cambio en ese archivo en esas lineas
+
+
+---Busqueda de palabra y commits---
+
+git grep color -->use la palabra color
+
+git grep la --> donde use la palabra la
+
+git grep -n color–> en que lineas use la palabra color
+
+git grep -n platzi --> en que lineas use la palabra platzi
+
+git grep -c la --> cuantas veces use la palabra la
+
+git grep -c paltzi --> cuantas veces use la palabra platzi
+
+git grep -c “<p>”–> cuantas veces use la etiqueta <p>
+
+git log-S “cabecera” --> cuantas veces use la palabra
 
 
 ---Tags---
